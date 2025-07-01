@@ -1,0 +1,31 @@
+import java.util.Scanner;
+import java.util.InputMismatchException;
+public class ExceptionConcept
+{
+public void main Repeat();
+{
+System.out.println("Enter a number:");
+Scanner sc = new Scanner(System.in);
+Systm.out.println("Enter a Numerator:");
+int a =sc.nextInt();
+System.out.println("Enter a Denominator:");
+int b = sc.nextInt();
+int c=a/b;
+System.out.println(c);
+}
+catch(ArithmeticException e)
+{
+System.out.println("can't Divisible by Zero");
+Repeat();
+}
+catch(InputMismatchException e)
+{
+System.out.println("Enter a correct input");
+Repeat();
+}
+public sstatic void main(String args[])
+{
+Repeat();
+}
+}
+}
